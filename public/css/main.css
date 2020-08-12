@@ -1,0 +1,126 @@
+.full {
+	width: 100vw;
+	height: 100vh;
+	background: url(../images/point.png);
+}
+/* Sign up Start*/
+.log-in {
+	padding-top: 25vh;
+}
+
+.login-card {
+	background-color: #00000000;
+	width: 500px;
+	margin: 0 auto;
+	border: 2px solid #59d3d3 !important;
+	background-color: #00000082 !important;
+}
+
+.login-card .card-header {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-family: OpenSans-Bold;
+}
+
+.login-card .card-body {
+	padding-top: 0;
+}
+
+.login-menu {
+	position: relative;
+}
+
+.login-item {
+	position: absolute !important;
+	right: 0;
+}
+
+
+.login-card  .form-control {
+	border: 1px solid #59d3d3 !important;
+	background-color: #00000082 !important;
+	color: white !important;
+	font-size: 15px !important;
+}
+
+.form-control::placeholder{
+	color: white;
+}
+
+.login-card .btn-primary {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	background-color: #119999e6;
+	border-color: none;
+}
+
+.login-card .btn-primary:hover {
+	background-color: #10f3f361;
+    border-color: #f6f7f8;
+}
+
+.login-card .offset-md-4 {
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.register-input {
+	position: relative;
+}
+
+.register-input span.store-group {
+	position: absolute;
+    top: 13%;
+    right: 50px;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.register-input span {
+	font-size: 90%;
+}
+
+/* Sign up Ended*/
+
+/* Login Start*/
+.login-card .form-check-label {
+	color: white;
+}
+
+.login-card .form-check {
+	text-align: center;
+}
+
+.login-btn {
+	text-align: center;
+}
+
+.login-btn .btn-link {
+	color: white;
+	margin-top: 20px;
+}
+
+
+.login-btn .btn-link:hover {
+	text-decoration: none;
+	color: #2edaba;
+}
+
+.iti.iti--allow-dropdown {
+	width: 100% !important;
+}
+/* End Login*/
+
+/* Mobile Resposive */
+@media (max-width:576px){
+	.log-in {
+		padding-top: 15vh;
+	}
+	
+	.login-card {
+		width: 90% !important;
+	}
+}
